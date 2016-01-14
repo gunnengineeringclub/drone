@@ -1,2 +1,0 @@
-# drone
-Club drone code.
