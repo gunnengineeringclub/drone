@@ -334,14 +334,14 @@ void loop() {
   
 
     float sp;
-    sp = map(throttle, 1150, 2000, 700, 1700);
+    sp = map(throttle, 1150, 2000, 400, 1700);
     m1speed = sp;
     m2speed = sp;
     m3speed = sp;
     m4speed = sp;
 
 //    automation code goes here
-    int accuracy = 3;
+    int accuracy = 7;
 
     int desiredForward = map(forward, 1150, 2000, -50, 50);
     int desiredSideways = map(side, 1150, 2000, -50, 50);
